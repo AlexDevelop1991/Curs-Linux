@@ -26,3 +26,10 @@
 # ssh (сервер) ---> подключится к другому серверу.
 # service ssh start ---> активация SSH
 # sudo apt-get install openssh-server ---> Инсталяция SSH
+
+"""Использовать SSH Key вместо Password для подключения к Linux"""
+
+# ssh-keygen ---> сгенирировать пару ключей.
+# nano authorized_keys ---> редактируем файл и вставляем public ключ.
+# /home/user name/.ssh/id_rsa ---> Private key который использовать по умолчанию.
+
